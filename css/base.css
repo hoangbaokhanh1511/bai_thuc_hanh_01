@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header > div{
+    min-width: 150px;
+    height:30px;
+}
+.header .logo img{
+   height: auto;
+   width: 200px;
+   margin-left: 15px;
+
+}
+.header .logo img:hover{
+    cursor: pointer;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    text-decoration: none; 
+    margin-right: 15px;
+}
+.header .menu ul li{
+    padding: 15px;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.header .menu ul li:hover{
+    background-color:rgb(161, 154, 150);
+    color: azure;
+    cursor: pointer;
+}
+.banner{
+    margin-top: 51px;
+}
+.banner img{
+  
+    width: 100%;
+    height: auto;
+}
+
+.content .sidebar{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content .sidebar a{
+    min-width: 300px;
+    min-height: 230px;
+}
+.content .sidebar .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sidebar .vanphong{
+    background-image: url(/images/van-phong.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .bietthu{
+    background-image: url(/images/biet-thu.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .canho{
+    background-image: url(/images/can-ho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .nhapho{
+    background-image: url(/images/nha-pho.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar .chon:hover{
+   cursor: pointer;
+}
+.content_2 .slidebar_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content_2 .slidebar_2 a{
+    min-width: 300px;
+    min-height: 230px;
+}
+.content_2 .slidebar_2 .chon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.slidebar_2 .nhamay{
+    background-image: url(/images/nha-may.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.slidebar_2 .showroom{
+    background-image: url(/images/showroom.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.slidebar_2 .gioithieu{
+    background-image: url(/images/gioi-thieu.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration:none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slidebar_2 .chon:hover{
+    cursor: pointer;
+ }
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: yellow;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .footer .we{
+    font-weight: bold;
+    padding: 30px;
+    margin: 0 10px 0 0;
+ }
+ .footer .we a{
+    text-decoration: none;
+    color: black;
+ }
+ .footer .we a:hover{
+    cursor: pointer;
+    color: blue;
+ }
+ .footer .cert{
+    padding: 30px;
+    margin: 0 10px 0 0;
+    margin-right: 0px;
+ }
+ .footer .address{
+    padding: 30px;
+    margin: 0 10px 0 0;
+    margin-right: 0px;
+ }
+ p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
