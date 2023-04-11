@@ -103,6 +103,8 @@
 }
 .sidebar .chon:hover{
    cursor: pointer;
+   box-shadow: 7px 7px 5px rgba(132, 132, 132, 0.359);
+    transform: scale(1.03, 1.03);
 }
 .content_2 .slidebar_2{
     display: flex;
@@ -146,6 +148,8 @@
 }
 .slidebar_2 .chon:hover{
     cursor: pointer;
+    box-shadow: 7px 7px 5px rgba(132, 132, 132, 0.359);
+    transform: scale(1.03, 1.03);
  }
  .footer {
     display: flex;
